@@ -1,7 +1,7 @@
 # line-bot-translator
 Bot Line Translator
 
-Bot Line deangan default menerjemahkan Bahasa Inggris ke bahasa Indonesia, dengan command depan /trans. Bahasa yang digunakan adalah python.
+Bot Line deangan default menerjemahkan Bahasa Inggris ke bahasa Indonesia, dengan command depan /trans. Bahasa yang digunakan adalah python, dengan API googletrans.
 
 ## Cara Menggunakan
 
