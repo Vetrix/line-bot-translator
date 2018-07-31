@@ -103,7 +103,7 @@ def handle_text_message(event):
 			
 		return translator.translate(word, src=sc, dest=to).text
 
-	elif text[0:].lower().strip().startswith('/trans ') :
+	if text[0:].lower().strip().startswith('/trans ') :
 		line_bot_api.reply_message(
 			event.reply_token,
 			TextSendMessage(trans(split(text))))
